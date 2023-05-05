@@ -1,34 +1,40 @@
-/* body {
-    background-color: #111;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    font-size: 1.25rem;
-}
 
-h2 {
-    text-align: center;
-    color: goldenrod;
-    font-size: 35px;
-}
-
+ body {
+     background-color: #111;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: white;
+     font-size: 1.25rem;
+ }
+ h2 {
+     text-align: center;
+     color: goldenrod;
+     font-size: 35px;
+ }
+ form{
+    /* background-color: aquamarine; */
+    padding: 30px;
+ }
 .myForm {
-    border: solid 2px goldenrod;
+    /* border: solid 2px goldenrod; */
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     border-radius: 5px;
+
 }
 
-.row {
+.row{
+    /* background-color: bisque; */
+    /* display: flex;
+    flex-direction: row; */
     display: grid;
     grid-template-columns: auto auto auto auto;
 }
-
-.col {
-    padding: 0 10px;
+.col{
     margin: 10px 0;
+    padding:0 10px;
+    /* background-color: blueviolet; */
 }
-
 .form-control {
     border: none;
     padding: 10px 25px;
@@ -38,28 +44,24 @@ h2 {
     color: white;
     font-size: 1.25rem;
 }
-
 label {
-    display: block;
+    /* display: block; */
     color: burlywood;
     margin-bottom: 5px;
 }
-
 .submit_btn {
     text-align: center;
     margin: 20px;
 }
-
 .btn {
     padding: 5px 20px;
-    background-color: chartreuse;
+    background-color: rgb(81, 46, 207);
     border: none;
     border-radius: 5px;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.25rem;
 }
-
 @media only screen and (max-width:900px) {
     .row {
         grid-template-columns: auto auto;
@@ -71,7 +73,6 @@ label {
         font-size: 1rem;
     }
 }
-
 @media only screen and (max-width:600px) {
     .row {
         grid-template-columns: auto;
@@ -79,6 +80,12 @@ label {
 
     .col {
         padding: 0;
-        margin: 10px 0;
-    }
+        margin: 10px 0;}}
+ /*
+
+
+
+
+
+}
 } */
